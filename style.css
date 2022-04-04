@@ -30,6 +30,7 @@ input {
 	border-radius: 13px;
 	text-align: center;
 	border: 0;
+	cursor: pointer;
 }
 
 .inHebrew {

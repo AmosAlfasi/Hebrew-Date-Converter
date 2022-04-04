@@ -19,8 +19,6 @@ const getData = async (day, month, year) => {
 };
 
 btn.addEventListener("click", function () {
-	console.log(typeof gregorian.value);
-
 	const [year, month, day] = gregorian.value.split("-");
 	console.log(day, month, year);
 	getData(day, month, year);
