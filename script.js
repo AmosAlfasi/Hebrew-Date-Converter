@@ -24,4 +24,5 @@ btn.addEventListener("click", function () {
 	const [year, month, day] = gregorian.value.split("-");
 	console.log(day, month, year);
 	getData(day, month, year);
+	inHebrew.style.color = "#2e79bf";
 });

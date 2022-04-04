@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Ubuntu", sans-serif;
+	background: url(bg.jpg);
+	text-align: center;
+	height: 100vh;
+	background-image: linear-gradient(to top left, #e2e2e2 0%, #2e79bf 100%);
+	margin-top: 200px;
+}
+h1 {
+	font-size: 50px;
+}
+.userInput {
+	margin: 1em 0 0;
+	font-weight: bold;
+	font-size: 30px;
+
+	justify-content: center;
+}
+input {
+	font-size: 22px;
+	border-radius: 13px;
+	text-align: center;
+	border: 0;
+}
+
+.inHebrew {
+	font-family: "Assistant", sans-serif;
+	font-weight: bold;
+	margin: 1em 0 0;
+	font-size: 40px;
+}
+
+.SUBMIT {
+	font-size: 20px;
+	padding: 5px 8px;
+	border: 0;
+	border-radius: 13px;
+	background-color: #2e79bf;
+	color: #fff;
+	cursor: pointer;
+}
+
+.SUBMIT:hover {
+	background-color: #2a6dac;
+}
+.SUBMIT:active {
+	scale: 0.9;
+	background-color: #568fc4;
+
+	transform: scale(0.95);
+}
+
+h3 {
+	color: #0c263e;
+	font-size: 12px;
+	margin-top: 40px;
+}
