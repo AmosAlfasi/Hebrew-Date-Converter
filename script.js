@@ -10,8 +10,9 @@ const getData = async (day, month, year) => {
 			`https://www.hebcal.com/converter?cfg=json&gy=${year}&gm=${month}&gd=${day}&g2h=1`
 		);
 		const response = await res.json();
-		console.log(response.hebrew);
+		//console.log(response);
 		inHebrew.textContent = response.hebrew;
+		inHebrew.style.color = "#2e79bf";
 		//document.write(response.hebrew);
 	} catch (error) {
 		console.log(error);
@@ -20,7 +21,6 @@ const getData = async (day, month, year) => {
 
 btn.addEventListener("click", function () {
 	const [year, month, day] = gregorian.value.split("-");
-	console.log(day, month, year);
+	//console.log(day, month, year);
 	getData(day, month, year);
-	inHebrew.style.color = "#2e79bf";
 });
